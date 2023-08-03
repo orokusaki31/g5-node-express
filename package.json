@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "name": "g5-node-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orokusaki31/g5-node-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orokusaki31/g5-node-express/issues"
+  },
+  "homepage": "https://github.com/orokusaki31/g5-node-express#readme",
+  "description": ""
+}
