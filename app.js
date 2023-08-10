@@ -5,7 +5,11 @@ const express = require('express');
 // inicializar la aplicacion con el archivo app.js
 const app = express();
 // para activar el puerto 
-const puerto = 7475;
+// const puerto = 7475;
+
+//importar el paquete de dotenv
+require('dotenv').config();
+const puerto = process.env.PORT;
 
 // para mostrar los archivos de la carperta public se utiliza metodo use
 
